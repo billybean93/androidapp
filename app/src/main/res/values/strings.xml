@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">FitJour</string>
+    <string name="Gym_Strong">What do you want to work on today?</string>
+    <string name="fitness_journey">FitJour</string>
+    <string name="main_login_wallpaper">Main Login wallpaper</string>
+    <string name="app_description">An one-stop place for all of your fitness needs!</string>
+    <string name="fitness_wallpaper">Fitness Wallpaper</string>
+    <string name="activity3_wallpaper">activity3 wallpaper</string>
+    <string name="btn_strength">Strength training\n</string>
+    <string name="btn_cardio">Cardio</string>
+    <string name="go">GO!</string>
+    <string name="action_search">Search here\n</string>
+    <string name="about_us">About us</string>
+</resources>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/fitness_wallpaper"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/fitness_wallpaper" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="595dp"
+        android:fontFamily="@font/be_vietnam_extrabold_italic"
+        android:text="@string/app_name"
+        android:textAlignment="center"
+        android:textColor="#F8FFFFFF"
+        android:textSize="96sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="334dp"
+        android:layout_height="150dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="39dp"
+        android:layout_marginEnd="39dp"
+        android:layout_marginBottom="425dp"
+        android:fontFamily="@font/be_vietnam_extrabold_italic"
+        android:text="@string/app_description"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btn_go"
+        android:layout_width="240dp"
+        android:layout_height="53dp"
+        android:layout_alignStart="@+id/textView9"
+        android:layout_alignEnd="@+id/textView9"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="47dp"
+        android:layout_marginEnd="47dp"
+        android:layout_marginBottom="301dp"
+        android:background="@drawable/button_frame1"
+        android:backgroundTintMode="@android:color/transparent"
+        android:gravity="center"
+        android:text="@string/go"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/about_us"
+        android:layout_width="116dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="146dp"
+        android:layout_marginBottom="-3dp"
+        android:background="@drawable/ic_launcher_foreground"
+        android:text="@string/about_us"
+        android:fontFamily="@font/be_vietnam_extrabold"/>
+
+
+</RelativeLayout>
